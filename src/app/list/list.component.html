@@ -1,0 +1,7 @@
+<div class="py-2 d-flex justify-content-between"> 
+    <span [ngClass]="task.status?'complete':'incomplete'">{{task.name}}</span> 
+    <span class="radio">
+      <input class="check" type="checkbox" [id]="task.myid" (click)="triggerEvent(task)" [checked]="task.status"/>
+      <label [for]="task.myid"></label>
+    </span> 
+  </div>

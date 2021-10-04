@@ -1,0 +1,65 @@
+.mydiv {
+  background: #88c388;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.listBox {
+  background: white;
+  border-radius: 7px;
+  box-shadow: 0 7px 14px rgb(0 0 0 / 0.1);
+}
+
+.inputText {
+  border: 2px solid #f3f3f3;
+}
+
+.inputText:focus {
+  outline: none !important;
+  box-shadow: none;
+  border: 1px solid #65b265;
+}
+
+::placeholder {
+  color: #d9d9d9;
+}
+
+.btn_background {
+  padding: 12px 20px;
+  font-size: 14px;
+  border: none;
+  background: #66b266;
+  color: white;
+  box-shadow: inset #3c763c 0 -3px 0;
+  cursor: pointer;
+  transition: background-color 0.2s ease-out;
+  border-radius: 3px;
+}
+
+.btn_background:disabled {
+  background: #e6e6e6;
+  box-shadow: inset #d9d9d9 0 -2px 0;
+}
+
+.btn_background:disabled:hover {
+  background: #e6e6e6;
+}
+
+.btn_background:hover {
+  background: #55a955;
+}
+
+.btn_background:active {
+  box-shadow: inset #448744 0 0 0;
+  transform: translateY(2px);
+}
+
+hr{
+  margin-top:10px;
+  margin-bottom:10px;
+  color: gray;
+}
+
